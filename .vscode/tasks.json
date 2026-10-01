@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "chain: install",
+      "type": "shell",
+      "command": "npm install",
+      "options": { "cwd": "${workspaceFolder}/chain" }
+    },
+    {
+      "label": "chain: test",
+      "type": "shell",
+      "command": "npm test",
+      "options": { "cwd": "${workspaceFolder}/chain" },
+      "dependsOn": "chain: install"
+    },
+    {
+      "label": "console: install",
+      "type": "shell",
+      "command": "npm install",
+      "options": { "cwd": "${workspaceFolder}/console" }
+    },
+    {
+      "label": "console: dev",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": { "cwd": "${workspaceFolder}/console" },
+      "dependsOn": "console: install",
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

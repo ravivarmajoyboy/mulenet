@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+artifacts/
+*.pyc
+results/aml_train.parquet
+results/aml_cal.parquet
+results/aml_test.parquet
+.venv/

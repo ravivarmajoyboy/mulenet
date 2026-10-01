@@ -1,0 +1,170 @@
+{
+  "baseline": {
+    "clean": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.003230691569914185,
+      "hold_fpr": 0.0005047955577990914,
+      "n_pos": 576,
+      "n": 20386
+    },
+    "split": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.004692414788841335,
+      "hold_fpr": 0.001392254937348528,
+      "n_pos": 1677,
+      "n": 21070
+    },
+    "slow": {
+      "victim_recall": 0.9917808219178083,
+      "victim_value_recall": 0.9973382288503556,
+      "flow_recall": 0.9938356164383562,
+      "fpr": 0.005763106010818462,
+      "hold_fpr": 0.0008594105454729286,
+      "n_pos": 1460,
+      "n": 21241
+    },
+    "aged_rotate": {
+      "victim_recall": 0.1554054054054054,
+      "victim_value_recall": 0.17764799849164062,
+      "flow_recall": 0.34290540540540543,
+      "fpr": 0.0035314297245484815,
+      "hold_fpr": 0.0011098779134295228,
+      "n_pos": 592,
+      "n": 20414
+    },
+    "layered": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.0046261751977316815,
+      "hold_fpr": 0.0004476943739740337,
+      "n_pos": 906,
+      "n": 21009
+    },
+    "combined": {
+      "victim_recall": 0.46484375,
+      "victim_value_recall": 0.5208258779039157,
+      "flow_recall": 0.5168269230769231,
+      "fpr": 0.002234581388419903,
+      "hold_fpr": 0.0005958883702453074,
+      "n_pos": 3328,
+      "n": 23466
+    }
+  },
+  "hardened": {
+    "clean": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.004038364462392731,
+      "hold_fpr": 0.0009591115598182736,
+      "n_pos": 576,
+      "n": 20386
+    },
+    "split": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.005414324756355386,
+      "hold_fpr": 0.0011859949466302274,
+      "n_pos": 1677,
+      "n": 21070
+    },
+    "slow": {
+      "victim_recall": 0.9972602739726028,
+      "victim_value_recall": 0.9995267250585285,
+      "flow_recall": 0.9986301369863013,
+      "fpr": 0.005105909711339164,
+      "hold_fpr": 0.0009605176684697437,
+      "n_pos": 1460,
+      "n": 21241
+    },
+    "aged_rotate": {
+      "victim_recall": 0.972972972972973,
+      "victim_value_recall": 0.9819120480232775,
+      "flow_recall": 0.9915540540540541,
+      "fpr": 0.005650287559277571,
+      "hold_fpr": 0.0018161638583392191,
+      "n_pos": 592,
+      "n": 20414
+    },
+    "layered": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.004427199920409889,
+      "hold_fpr": 0.001044620205939412,
+      "n_pos": 906,
+      "n": 21009
+    },
+    "combined": {
+      "victim_recall": 0.859375,
+      "victim_value_recall": 0.9104313462734444,
+      "flow_recall": 0.7845552884615384,
+      "fpr": 0.0036249875856589533,
+      "hold_fpr": 0.0004469162776839805,
+      "n_pos": 3328,
+      "n": 23466
+    }
+  },
+  "hardened+graph": {
+    "clean": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.003735487127713276,
+      "hold_fpr": 0.0010600706713780918,
+      "n_pos": 576,
+      "n": 20386
+    },
+    "split": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.005001804774918785,
+      "hold_fpr": 0.0012891249419893776,
+      "n_pos": 1677,
+      "n": 21070
+    },
+    "slow": {
+      "victim_recall": 0.9972602739726028,
+      "victim_value_recall": 0.9995267250585285,
+      "flow_recall": 0.9986301369863013,
+      "fpr": 0.004802588342348719,
+      "hold_fpr": 0.0011121783529649664,
+      "n_pos": 1460,
+      "n": 21241
+    },
+    "aged_rotate": {
+      "victim_recall": 0.972972972972973,
+      "victim_value_recall": 0.9915323495799363,
+      "flow_recall": 0.9932432432432432,
+      "fpr": 0.005599838563212592,
+      "hold_fpr": 0.0019170618504691756,
+      "n_pos": 592,
+      "n": 20414
+    },
+    "layered": {
+      "victim_recall": 1.0,
+      "victim_value_recall": 1.0,
+      "flow_recall": 1.0,
+      "fpr": 0.004228224643088097,
+      "hold_fpr": 0.0009451325672785156,
+      "n_pos": 906,
+      "n": 21009
+    },
+    "combined": {
+      "victim_recall": 0.90234375,
+      "victim_value_recall": 0.9388644170526439,
+      "flow_recall": 0.8740985576923077,
+      "fpr": 0.0033767007647234086,
+      "hold_fpr": 0.0005462310060581984,
+      "n_pos": 3328,
+      "n": 23466
+    }
+  }
+}

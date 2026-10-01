@@ -1,0 +1,20 @@
+{
+  "name": "chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:offline": "node scripts/offline-compile.js",
+    "compile": "hardhat compile || npm run compile:offline",
+    "test": "npm run compile:offline && hardhat test --no-compile",
+    "deploy:local": "npm run compile:offline && hardhat run scripts/deploy.js --no-compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.29.1",
+    "solc": "^0.8.24"
+  }
+}

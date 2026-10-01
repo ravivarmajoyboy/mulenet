@@ -1,0 +1,28 @@
+{
+  "n_train_features": 24,
+  "n_test": 723665,
+  "n_test_positive": 1539,
+  "roc_auc": 0.9160321439820727,
+  "pr_auc": 0.23511990513058612,
+  "by_fpr_budget": {
+    "5.0%": {
+      "threshold": 0.0151,
+      "actual_fpr": 0.27994,
+      "recall": 0.8947,
+      "precision": 0.0068
+    },
+    "1.0%": {
+      "threshold": 0.2568,
+      "actual_fpr": 0.09662,
+      "recall": 0.7336,
+      "precision": 0.0159
+    },
+    "0.1%": {
+      "threshold": 0.7972,
+      "actual_fpr": 0.01284,
+      "recall": 0.486,
+      "precision": 0.0747
+    }
+  },
+  "n_train_rows": 3377099
+}

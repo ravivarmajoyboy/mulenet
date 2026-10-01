@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "MuleNet: API (debug)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["mulenet.api:app", "--reload", "--port", "8000"],
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "MuleNet: adversarial eval (quick)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "mulenet.adversary",
+      "args": ["--quick"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "MuleNet: train model",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "mulenet.train",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "MuleNet: pytest (current file)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-q", "${file}"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
